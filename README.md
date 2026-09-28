@@ -49,7 +49,7 @@ A interface fica disponível em `http://localhost:8080`. A API precisa estar rod
 ## API externa utilizada
 
 - **Serviço:** [wger.de](https://wger.de), banco de exercícios open source
-- **Licença:** AGPLv3 (uso gratuito, sem necessidade de cadastro ou chave para leitura do catálogo)
+- **Licença:** o código da aplicação wger é disponibilizado sob AGPL-3.0 ou posterior. Dados de exercícios são disponibilizados sob licenças Creative Commons, devendo ser observada a licença indicada em cada registro; a documentação oficial informa CC BY-SA 3.0 para os dados iniciais de exercícios e ingredientes. Uso gratuito, sem necessidade de cadastro ou chave para leitura do catálogo. Neste MVP, a API pública é utilizada para consulta.
 - **Rota consumida:** `GET https://wger.de/api/v2/exerciseinfo/?language=7&format=json&limit=999`
   - `language=7` é o código da wger.de para português.
   - O catálogo é carregado uma vez quando a página abre; a busca por nome e o filtro por parte do corpo são feitos localmente a partir desses dados.
