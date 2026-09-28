@@ -13,7 +13,7 @@ Projeto desenvolvido como MVP de componentização e microsserviços (Cenário 1
 - A **AvocaGym API** persiste os dados em **SQLite**.
 - Cada componente roda em seu próprio contêiner Docker, com repositório e Dockerfile separados.
 
-Repositório da API própria: informar aqui o link completo do repositório do backend.
+Repositório da API própria: https://github.com/yanroch/avocagym-api
 
 ## Stack
 
